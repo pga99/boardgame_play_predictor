@@ -9,7 +9,7 @@ The model is a random forest classifier trained to predict the winner between to
 - `Game: Bgg Name` [list](https://boardgamegeek.com/browse/boardgame) 
 - `Game: Complexity`
 - `Game: Bgg Game Types`
-- `Game: Bgg Categories` [list] (https://boardgamegeek.com/browse/boardgamecategory)
+- `Game: Bgg Categories` [list](https://boardgamegeek.com/browse/boardgamecategory)
 - `Game: Bgg Mechanics`[list](https://boardgamegeek.com/browse/boardgamemechanic)
 - `Game: Year Published`
 - `Play: Day`
