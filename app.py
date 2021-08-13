@@ -41,9 +41,9 @@ if st.checkbox("We're playing a new boardgame"):
 if st.button('Predict the winner'):
     now = datetime.now()
     entry = games.loc[games['bggName'] == game, :]
-    entry['day'] = now.day
-    entry['time'] = now.hour
-    entry['year'] = now.year
+    entry.insert(1, 'day', now.day)
+    entry.insert(2, 'time', now.hour)
+    entry.insert(3, 'year', now.year)
     # st.write(entry)
     st.subheader(f'The model predicts that the `winner` will be:')
     st.header(f':raising_hand: :trophy: {rf_pipeline.predict(entry)[0]} :trophy:')
