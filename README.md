@@ -1,6 +1,8 @@
 # Boardgame play predictor
 
-Built this `Streamlit` app as a birthday present to my wife to use it to predict the winner of our boardgame plays and then play for/against the prediction. 
+Built this `Streamlit` app as a birthday present to my wife to use it to predict the winner of our boardgame plays and then play for/against the prediction.
+
+https://share.streamlit.io/pga99/our_boardgame_play_predictor/main/app.py 
 
 Based on data collected with the [Board Game Stats app](https://www.bgstatsapp.com/) from January 2019 to August 2021. 
 Board game information comes from [the bgg data from Board Game data set on kaggle](https://www.kaggle.com/mshepherd/board-games).  
